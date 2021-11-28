@@ -2,7 +2,7 @@
 
 Projet LP AMIO
 
-Siteweb ecommerce développé avec Symfony
+Site web ecommerce développé avec Symfony
 ## Equipe
 
 | Nom | Prénom | Email |

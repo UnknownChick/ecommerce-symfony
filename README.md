@@ -1,8 +1,11 @@
-# ecommerce-symfony
+# Site Ecommerce Symfony
 
 Projet LP AMIO
 
-Alexandre Ferreira
-Kevin Blaise
-Alan Paum
-Petru Orlean
+Siteweb ecommerce développé avec Symfony
+## Equipe
+
+* Alexandre Ferreira
+* Kevin Blaise
+* Alan Paum
+* Petru Orlean

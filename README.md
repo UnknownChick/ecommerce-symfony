@@ -23,11 +23,14 @@ Siteweb ecommerce développé avec Symfony
 
 ```Bash
 composer update
-
+```
+```Bash
 symfony self:update
-
+```
+```Bash
 symfony console doctrine:database:create
-
+```
+```Bash
 symfony server:start
 ```
 

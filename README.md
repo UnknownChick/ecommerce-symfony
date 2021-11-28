@@ -26,10 +26,12 @@ composer update
 
 symfony self:update
 
+symfony console doctrine:database:create
+
 symfony server:start
 ```
 
 ## Lien utile
 
-> Documentation symfony [here]
-(https://symfony.com/doc/current/index.html)
+> Documentation [symfony](https://symfony.com/doc/current/index.html)\
+> Documentation [composer](https://getcomposer.org/doc/)

@@ -24,6 +24,8 @@ Site web ecommerce développé avec Symfony
 
 ## Commande pour lancer le projet
 
+Penser à modifier le fichier .env
+
 ```Bash
 composer update
 ```

@@ -17,7 +17,10 @@ Site web ecommerce développé avec Symfony
 * [x] Formulaire d'inscription
 * [x] Sauvegarde des données d'inscription dans le base de données
 * [x] Formulaire de connexion
-* [ ] Redirection après connexion
+* [x] Redirection après connexion
+* [x] Espace membre
+* [x] Mise a jour du menu pour la connexion/inscription/déconnexion
+* [ ] Permettre a l'utilisateur de modifier son mot de passe
 
 ## Commande pour lancer le projet
 

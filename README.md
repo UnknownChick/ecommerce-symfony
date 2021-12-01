@@ -1,8 +1,10 @@
-# Site Ecommerce Symfony
+# Site Ecommerce Symfony : **Siekau**
 
 Projet LP AMIO
 
 Site web ecommerce développé avec Symfony
+
+Siekau est une toute nouvelle marque innovante qui veut prendre place dans le marché de la vente de montre.
 ## Equipe
 
 | Nom | Prénom | Email |

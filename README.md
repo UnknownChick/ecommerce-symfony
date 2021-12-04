@@ -17,7 +17,7 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 
 ## Tâches
 
-### les membres
+### Les membres
 * [x] Création de l'entité : User()
 * [x] Transformer l'entité User() en table dans une base de donnée
 * [x] Création du formulaire d'inscription

@@ -1,5 +1,3 @@
-# Site Ecommerce Symfony : Siekau
-=======
 # Site Ecommerce Symfony : **Siekau**
 
 Projet LP AMIO

@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 # Site Ecommerce Symfony : Siekau
+=======
+# Site Ecommerce Symfony : **Siekau**
+>>>>>>> 6b1bda19872af44de4838090746c0e9b409e650f
 
 Projet LP AMIO
 
 Site web ecommerce développé avec Symfony
 
+<<<<<<< HEAD
 Siekau est une toute nouvelle marque innovante qui veut prendre place dans le marché de la vente de montre.
+=======
+**Siekau** est une toute nouvelle marque innovante qui veut prendre place dans le marché de la vente de montre.
+>>>>>>> 6b1bda19872af44de4838090746c0e9b409e650f
 ## Equipe
 
 | Nom | Prénom | Email |

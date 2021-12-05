@@ -45,7 +45,6 @@
                <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                          <li class="nav-item active">
-<<<<<<< HEAD
                               <a class="nav-link" href="#">Nos produits</a>
                          </li>
                          <li class="nav-item active">
@@ -53,14 +52,11 @@
                          </li>
                          <li class="nav-item active">
                               <a class="nav-link" href="#">Contact</a>
-=======
-                              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
->>>>>>> 6b1bda19872af44de4838090746c0e9b409e650f
                          </li>
                     </ul>
                     <div class="navbar-item-custom">
                          {% if app.user %}
-                              <a href="{{ path('account') }}">Mon compte small({{ app.user.firstname }})</a> | <a href=" {{ path('app_logout') }}">Déconnexion</a>
+                              <a href="{{ path('account') }}">Mon compte ({{ app.user.firstname }})</a> | <a href=" {{ path('app_logout') }}">Déconnexion</a>
                          {% else %}
                               <a href="{{ path('app_login') }}">Connexion</a> | <a href="{{ path('register') }}">Inscription</a>
                          {% endif %}

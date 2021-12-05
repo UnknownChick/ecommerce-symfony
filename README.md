@@ -8,12 +8,12 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 
 ## Equipe
 
-| Nom | Prénom | Email |
-|-|-|-|
-| Ferreira | Alexandre | alexandre.ferreira4@etu.univ-lorraine.fr |
-| Blaise | Kevin | kevin.blaise2@etu.univ-lorraine.fr |
-| Paul | Alan | alan.paul1@etu.univ-lorraine.fr |
-| Orlean | Petru | petru.oltean5@etu.univ-lorraine.fr |
+| Nom | Prénom | Email | Github |
+| - | - | - | - |
+| Ferreira | Alexandre | alexandre.ferreira4@etu.univ-lorraine.fr | [UnknownChick](https://github.com/UnknownChick) |
+| Blaise | Kevin | kevin.blaise2@etu.univ-lorraine.fr | [Oui-Dev](https://github.com/Oui-Dev) |
+| Paul | Alan | alan.paul1@etu.univ-lorraine.fr | [Drakan300](https://github.com/Drakan300) |
+| Otlean | Petru | petru.oltean5@etu.univ-lorraine.fr | [otlean-petu](https://github.com/oltean-petru) |
 
 ## Tâches
 
@@ -30,7 +30,12 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 * [x] Mise à jour des templates pour afficher l'utilisateur et les routes
 
 ### Administration
-* [ ] EasyAdmin
+* [x] Integration EasyAdmin
+
+### Les produits
+* [ ] Création de l'entité Category() pou organiser les produits
+* [ ] Mapping de l'entité Category() dans EasyAdmin
+* [ ] Création de l'entité Product() 
 
 ## Commande pour lancer le projet
 

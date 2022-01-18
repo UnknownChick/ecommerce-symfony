@@ -12,47 +12,45 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 class AccountPasswordController extends AbstractController
 {
-     /**
-      * @param $entityManager
-      */
+	/**
+	 * @param $entityManager
+	*/
 
-      public function __construct(EntityManagerInterface $entityManager)
-      {
-           $this->entityManager = $entityManager;
-      }
+	public function __construct(EntityManagerInterface $entityManager)
+	{
+		$this->entityManager = $entityManager;
+	}
 
+	/**
+	 * @Route("/compt/modifier-mot-de-passe", name="account_password")
+	 */
+	public function index(Request $request, UserPasswordEncoderInterface $encoder): Response
+	{
+		$notification = null;
 
+		$user = $this->getUser();
+		$form = $this->createForm(ChangePasswordType::class, $user);
 
-    /**
-     * @Route("/compt/modifier-mot-de-passe", name="account_password")
-     */
-    public function index(Request $request, UserPasswordEncoderInterface $encoder): Response
-    {
-         $notification = null;
+		$form->handleRequest($request);
 
-         $user = $this->getUser();
-         $form = $this->createForm(ChangePasswordType::class, $user);
+		if($form->isSubmitted() && $form->isValid()) {
+			$old_pwd = $form->get('old_password')->getData();
+			if($encoder->isPasswordValid($user, $old_pwd)) {
+					$new_pwd = $form('new_password')->getData();
+					$password = $encoder->encodePassword($user, $new_pwd);
 
-         $form->handleRequest($request);
+					$user->setPassword($password);
+					$this->entityManager->persist($user);
+					$this->entityManager->flush();
 
-         if($form->isSubmitted() && $form->isValid()) {
-              $old_pwd = $form->get('old_password')->getData();
-               if($encoder->isPasswordValid($user, $old_pwd)) {
-                    $new_pwd = $form('new_password')->getData();
-                    $password = $encoder->encodePassword($user, $new_pwd);
-
-                    $user->setPassword($password);
-                    $this->entityManager->persist($user);
-                    $this->entityManager->flush();
-
-                    $notification ='Votre mot de passe a bien été mise à jour';
-               } else {
-                    $notification = 'Votre mot de passe actuel est invalide';
-               }
-         }
-        return $this->render('account/password.html.twig', [
-             'form' => $form->createView(),
-             'notification' => $notification
-        ]);
-    }
+					$notification ='Votre mot de passe a bien été mise à jour';
+			} else {
+					$notification = 'Votre mot de passe actuel est invalide';
+			}
+		}
+		return $this->render('account/password.html.twig', [
+			'form' => $form->createView(),
+			'notification' => $notification
+		]);
+	}
 }

@@ -37,7 +37,9 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 * [x] Mapping de l'entité Category() dans EasyAdmin
 * [x] Création de l'entité Product() 
 * [ ] Mapping de l'entité Product() dans EasyAdmin
-
+* [ ] Refractor de l'EventeSubscriber pour l'ajout d'image dans nos produits
+* [ ] Création des produits dans le backoffice
+  
 ## Commande pour lancer le projet
 
 Penser à modifier le fichier .env

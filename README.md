@@ -6,18 +6,29 @@ Site web ecommerce développé avec Symfony
 
 Siekau est une toute nouvelle marque innovante qui veut prendre place dans le marché de la vente de montre.
 
-## Equipe
+## Navigation
 
-| Nom | Prénom | Email | Github |
-| - | - | - | - |
-| Ferreira | Alexandre | alexandre.ferreira4@etu.univ-lorraine.fr | [UnknownChick](https://github.com/UnknownChick) |
-| Blaise | Kevin | kevin.blaise2@etu.univ-lorraine.fr | [Oui-Dev](https://github.com/Oui-Dev) |
-| Paul | Alan | alan.paul1@etu.univ-lorraine.fr | [Drakan300](https://github.com/Drakan300) |
-| Otlean | Petru | petru.oltean5@etu.univ-lorraine.fr | [otlean-petu](https://github.com/oltean-petru) |
+- [Equipe](#equipe)
+- [Tâches](#taches)
+   - [Les membres](#membres)
+   - [Administration](#administration)
+   - [Les produits](#produits)
+   - [Le panier](#panier)
+- [Commandes](#commandes)
+- [Documentation](#documentation)
 
-## Tâches
+## <a name="equipe"></a>Equipe
 
-### Les membres
+| Nom | Prénom | Email | Discord | Github |
+| - | - | - | - | - |
+| Ferreira | Alexandre | alexandre.ferreira4@etu.univ-lorraine.fr | UnknownChick#9543| [UnknownChick](https://github.com/UnknownChick) |
+| Blaise | Kevin | kevin.blaise2@etu.univ-lorraine.fr | Oui#8726 | [Oui-Dev](https://github.com/Oui-Dev) |
+| Paul | Alan | alan.paul1@etu.univ-lorraine.fr | drakan300#8544 | [Drakan300](https://github.com/Drakan300) |
+| Otlean | Petru | petru.oltean5@etu.univ-lorraine.fr | Zephyr33#3519 | [otlean-petu](https://github.com/oltean-petru) |
+
+## <a name="taches" /></a>Tâches
+
+### <a name="membres"></a>Les membres
 * [x] Création de l'entité : User()
 * [x] Transformer l'entité User() en table dans une base de donnée
 * [x] Création du formulaire d'inscription
@@ -29,20 +40,25 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 * [x] Permettre à l'utilisateur de modifier son mot de passe
 * [x] Mise à jour des templates pour afficher l'utilisateur et les routes
 
-### Administration
+### <a name="administration"></a>Administration
 * [x] Integration EasyAdmin
 
-### Les produits
+### <a name="produits"></a>Les produits
 * [x] Création de l'entité Category() pou organiser les produits
 * [x] Mapping de l'entité Category() dans EasyAdmin
 * [x] Création de l'entité Product() 
 * [x] Mapping de l'entité Product() dans EasyAdmin
 * [ ] Refractor de l'EventeSubscriber pour l'ajout d'image dans nos produits
 * [ ] Création des produits dans le backoffice
-  
-## Commande pour lancer le projet
+* [ ] Création des vues pour afficher les produits pour les utilisateurs
+* [ ] Création d'une barre de filtre pour faciliter la navigation de
 
-Penser à modifier le fichier .env
+### <a name="panier"></a>Le panier
+* [ ] Création du panier et de la classe Cart()
+  
+## <a name="commandes"></a>Commandes pour lancer le projet
+
+Ne pas oublier de modifier le fichier .env
 
 ```Bash
 composer update
@@ -57,7 +73,7 @@ symfony console doctrine:database:create
 symfony server:start
 ```
 
-## Lien utile
+## Documentation
 
 > Documentation [symfony](https://symfony.com/doc/current/index.html)\
 > Documentation [composer](https://getcomposer.org/doc/)

@@ -61,8 +61,8 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 * [x] Création de l'entité Product() 
 * [x] Mapping de l'entité Product() dans EasyAdmin
 * [x] Création des produits dans le backoffice
-* [ ] Création des vues pour afficher les produits pour les utilisateurs
-* [ ] Création d'une barre de filtre pour faciliter la navigation de
+* [x] Création des vues pour afficher les produits pour les utilisateurs
+* [x] Création d'une barre de filtre pour faciliter la navigation
 
 ### <a name="panier"></a>Le panier
 * [ ] Création du panier et de la classe Cart()

@@ -65,7 +65,7 @@ Siekau est une toute nouvelle marque innovante qui veut prendre place dans le ma
 * [x] Création d'une barre de filtre pour faciliter la navigation
 
 ### <a name="panier"></a>Le panier
-* [ ] Création du panier et de la classe Cart()
+* [x] Création du panier et de la classe Cart()
   
 ## <a name="commandes"></a>Commandes pour lancer le projet
 
